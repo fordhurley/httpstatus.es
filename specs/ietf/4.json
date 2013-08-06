@@ -399,17 +399,6 @@
                 }
             }
         },
-        "420":{
-            "code":"420",
-            "title":"Enhance Your Calm",
-            "summary":"Twitter rate limiting",
-            "descriptions":{
-                "wikipedia":{
-                    "body":"Returned by the Twitter Search and Trends API when the client is being rate limited.",
-                    "link":"http:\/\/en.wikipedia.org\/wiki\/List_of_HTTP_status_codes#420"
-                }
-            }
-        },
         "422":{
             "code":"422",
             "title":"Unprocessable Entity (WebDAV) (RFC 4918)",
@@ -511,58 +500,18 @@
                 }
             }
         },
-        "444":{
-            "code":"444",
-            "title":"No Response",
-            "summary":"server returns no information and closes the connection",
-            "descriptions":{
-                "wikipedia":{
-                    "body":"An nginx HTTP server extension. The server returns no information to the client and closes the connection (useful as a deterrent for malware).",
-                    "link":"http:\/\/en.wikipedia.org\/wiki\/List_of_HTTP_status_codes#444"
-                }
-            }
-        },
-        "449":{
-            "code":"449",
-            "title":"Retry With",
-            "summary":"request should be retried after performing action",
-            "descriptions":{
-                "wikipedia":{
-                    "body":"A Microsoft extension. The request should be retried after performing the appropriate action.",
-                    "link":"http:\/\/en.wikipedia.org\/wiki\/List_of_HTTP_status_codes#449"
-                }
-            }
-        },
-        "450":{
-            "code":"450",
-            "title":"Blocked by Windows Parental Controls",
-            "summary":"Windows Parental Controls blocking access to webpage",
-            "descriptions":{
-                "wikipedia":{
-                    "body":"A Microsoft extension. This error is given when Windows Parental Controls are turned on and are blocking access to the given webpage.",
-                    "link":"http:\/\/en.wikipedia.org\/wiki\/List_of_HTTP_status_codes#450"
-                }
-            }
-        },
         "451":{
             "code":"451",
-            "title":"Wrong Exchange server",
-            "summary":"The server cannot reach the client's mailbox.",
+            "title":"Unavailable For Legal Reasons",
+            "summary":"(draft) response denied because of a legal demand",
             "descriptions":{
-                "MS-ASHTTP":{
-                    "body":"If the client is attempting to connect to the wrong server (that is, a server that cannot access the user's mailbox), or if there is a more efficient server to use to reach the user's mailbox, then a 451 Redirect error is returned.",
-                    "link":"http://msdn.microsoft.com/en-us/library/gg651019"
-                }
-            }
-        },
-        "499":{
-            "code":"499",
-            "title":"Client Closed Request",
-            "summary":"connection closed by client while HTTP server is processing",
-            "descriptions":{
+                "ietf":{
+                    "body":"This status code indicates that the server is denying access to the resource in response to a legal demand.\nSince such demands typically apply to all operators in a legal jurisdiction, the server in question may or may not be an origin server. The demands typically most directly affect the operations of ISPs and search engines.\nResponses using this status code SHOULD include an explanation, in the response body, of the details of the legal demand: the party making it, the applicable legislation or regulation, and what classes of person and resource it applies to.",
+                    "link":"http:\/\/tools.ietf.org\/html\/draft-tbray-http-legally-restricted-status-02"
+                },
                 "wikipedia":{
-                    "body":"An Nginx HTTP server extension. This code is introduced to log the case when the connection is closed by client while HTTP server is processing its request, making server unable to send the HTTP header back.",
-                    "link":"http:\/\/en.wikipedia.org\/wiki\/List_of_HTTP_status_codes#499"
+                    "body":"Defined in the internet draft \"A New HTTP Status Code for Legally-restricted Resources\". Intended to be used when resource access is denied for legal reasons, e.g. censorship or government-mandated blocked access. A reference to the 1953 dystopian novel Fahrenheit 451, where books are outlawed.",
+                    "link":"http:\/\/en.wikipedia.org\/wiki\/List_of_HTTP_status_codes#451"
                 }
             }
         }

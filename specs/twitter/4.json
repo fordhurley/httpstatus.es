@@ -1,0 +1,23 @@
+{
+    "class":{
+        "title":"Client Error",
+        "class":"4"
+    },
+    "codes":{
+        "420":{
+            "code":"420",
+            "title":"Enhance Your Calm",
+            "summary":"Twitter rate limiting",
+            "descriptions":{
+                "twitter":{
+                    "body":"If your application is being rate-limited by the REST API it will receive HTTP 400 response codes. It is best practice for applications to monitor their current rate limit status and dynamically throttle requests if necessary. The REST API offers two ways to observe this status which are explained in the Rate Limiting FAQ. If you are rate limited on the Search or Streaming APIs an HTTP 420 response code will be returned.",
+                    "link":"https:\/\/dev.twitter.com\/docs\/rate-limiting\/1#amilimited"
+                },
+                "wikipedia":{
+                    "body":"Returned by the Twitter Search and Trends API when the client is being rate limited.",
+                    "link":"http:\/\/en.wikipedia.org\/wiki\/List_of_HTTP_status_codes#420"
+                }
+            }
+        }
+    }
+}

@@ -32,7 +32,7 @@ a:hover {
 
 @media (min-width: 480px) {
     #wrapper {
-        margin: 20px auto;
+        margin: 15px auto;
     }
 }
 
@@ -40,6 +40,7 @@ a:hover {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 10px;
+    text-transform: lowercase;
 }
 
 .header .status_title {
@@ -59,7 +60,6 @@ a:hover {
 }
 
 #advert{
-    background-color: #FFEAF2;
     height: 20px;
     padding: 15px 0;
     width: 100%;
@@ -173,4 +173,78 @@ a:hover {
 
 .clear {
     clear: both;
+}
+
+/* specs */
+
+.ietf .spec{
+    color: #D6156C;
+}
+
+.ietf .spec-highlight{
+    background-color:#FFEAF2;
+}
+
+.ietf a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #D6156C;
+}
+
+.ietf a:hover{
+    color: #F56991;
+}
+
+.twitter .spec{
+    color: #0084b4;
+}
+
+.twitter .spec-highlight{
+    background-color: #C0DEED;
+}
+
+.twitter a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #0084b4;
+}
+
+.twitter a:hover{
+    color: #C0DEED;
+}
+
+.microsoft .spec{
+    color: #5BBB32;
+}
+
+.microsoft .spec-highlight{
+    background-color: #EEE;
+}
+
+.microsoft a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #5BBB32;
+}
+
+.microsoft a:hover{
+    color: #BDF6A9;
+}
+
+.nginx .spec{
+    color: #DC0303;
+}
+
+.nginx .spec-highlight{
+    background-color: #DEDEDE;
+}
+
+.nginx a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #DC0303;
+}
+
+.nginx a:hover{
+    color: #555;
 }

@@ -1,0 +1,23 @@
+{
+    "ietf":{
+        "title":"IETF",
+        "key":"ietf",
+        "default":true,
+        "display":true
+    },
+    "twitter":{
+        "title":"Twitter",
+        "key":"twitter",
+        "display":true
+    },
+    "microsoft":{
+        "title":"Microsoft",
+        "key":"microsoft",
+        "display":true
+    },
+    "nginx":{
+        "title":"Nginx",
+        "key":"nginx",
+        "display":true
+    }
+}

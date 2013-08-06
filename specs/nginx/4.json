@@ -1,0 +1,78 @@
+{
+    "class":{
+        "title":"Client Error",
+        "class":"4"
+    },
+    "codes":{
+        "444":{
+            "code":"444",
+            "title":"No Response",
+            "summary":"No information returned to client",
+            "descriptions":{
+                "nginx":{
+                    "body":"This directive concludes execution of the rules and returns the status code indicated to client. It is possible to use any http return code, ranging in number from 0-999. Furthermore, nonstandard code 444 closes the connection without sending any headers.",
+                    "link":"http:\/\/wiki.nginx.org\/HttpRewriteModule#return"
+                },
+                "wikipedia":{
+                    "body":"Used in Nginx logs to indicate that the server has returned no information to the client and closed the connection (useful as a deterrent for malware).",
+                    "link":"http:\/\/en.wikipedia.org\/wiki\/List_of_HTTP_status_codes#444"
+                }
+            }
+        },
+        "494":{
+            "code":"494",
+            "title":"Request Header Too Large",
+            "summary":"The request is larger than the server is willing or able to process",
+            "descriptions":{
+                "wikipedia":{
+                    "body":"Internal code similar to 413 but it was introduced earlier.",
+                    "link":"http:\/\/en.wikipedia.org\/wiki\/List_of_HTTP_status_codes#494"
+                }
+            }
+        },
+        "495":{
+            "code":"495",
+            "title":"Cert Error",
+            "summary":"SSL client certificate error",
+            "descriptions":{
+                "wikipedia":{
+                    "body":"Nginx internal code used when SSL client certificate error occurred to distinguish it from 4XX in a log and an error page redirection.",
+                    "link":"http:\/\/en.wikipedia.org\/wiki\/List_of_HTTP_status_codes#495"
+                }
+            }
+        },
+        "496":{
+            "code":"496",
+            "title":"No Cert",
+            "summary":"no SSL certificate provided",
+            "descriptions":{
+                "wikipedia":{
+                    "body":"Nginx internal code used when client didn't provide certificate to distinguish it from 4XX in a log and an error page redirection.",
+                    "link":"http:\/\/en.wikipedia.org\/wiki\/List_of_HTTP_status_codes#496"
+                }
+            }
+        },
+        "497":{
+            "code":"497",
+            "title":"HTTP to HTTPS",
+            "summary":"http request sent to https port",
+            "descriptions":{
+                "wikipedia":{
+                    "body":"Nginx internal code used for the plain HTTP requests that are sent to HTTPS port to distinguish it from 4XX in a log and an error page redirection",
+                    "link":"http:\/\/en.wikipedia.org\/wiki\/List_of_HTTP_status_codes#497"
+                }
+            }
+        },
+        "499":{
+            "code":"499",
+            "title":"Client Closed Request",
+            "summary":"connection closed while server processing",
+            "descriptions":{
+                "wikipedia":{
+                    "body":"Used in Nginx logs to indicate when the connection has been closed by client while the server is still processing its request, making server unable to send a status code back",
+                    "link":"http:\/\/en.wikipedia.org\/wiki\/List_of_HTTP_status_codes#499"
+                }
+            }
+        }
+    }
+}
