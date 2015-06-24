@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>HTTP Status Codes &mdash; httpstatus.es</title>
+    <link rel="author" href="/httpstatus.es/humans.txt" />
+    <link rel="stylesheet" href="/httpstatus.es/css/main.css" type="text/css" />
+    <link rel="shortcut icon" href="/httpstatus.es/img/favicon.ico">
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-29439846-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <meta name="description" content="HTTP Status code list / directory with wikipedia and ietf descriptions"/>
+</head>
+
+
+  <body>
+
+    <div id="wrapper">
+    <div class="header">
+        301 / <span class="status_title">Moved Permanently</span>
+    </div>
+    <div id="desc">
+        
+        <p id="wikipedia">
+            &#8220;This and all future requests should be directed to the given URI.&#8220; &mdash; <a class="reference" href="http://en.wikipedia.org/wiki/List_of_HTTP_status_codes#301">wikipedia</a>
+        </p>
+        
+        <p id="ietf">
+            &#8220;The requested resource has been assigned a new permanent URI and any future references to this resource SHOULD use one of the returned URIs. Clients with link editing capabilities ought to automatically re-link references to the Request-URI to one or more of the new references returned by the server, where possible. This response is cacheable unless indicated otherwise.
+The new permanent URI SHOULD be given by the Location field in the response. Unless the request method was HEAD, the entity of the response SHOULD contain a short hypertext note with a hyperlink to the new URI(s).
+If the 301 status code is received in response to a request other than GET or HEAD, the user agent MUST NOT automatically redirect the request unless it can be confirmed by the user, since this might change the conditions under which the request was issued.
+Note: When automatically redirecting a POST request after receiving a 301 status code, some existing HTTP/1.0 user agents will erroneously change it into a GET request.&#8220; &mdash; <a class="reference" href="http://www.ietf.org/rfc/rfc2616.txt">ietf</a>
+        </p>
+        
+    </div>
+    
+    <div id="code_references">
+        <div class="header">
+           301 / <span class="status_title">code reference(s)</span>
+        </div>
+        <div class="info_list">
+            
+            <div class="info_item">
+                <div class="title">
+                    Rails HTTP Status Symbol
+                </div>
+                <div class="value">
+                    :moved_permanently
+                </div>
+                <div class="clear"></div>
+            </div>
+            
+            <div class="clear"></div>
+        </div>
+    </div>
+    
+
+    <div id="return">
+        <a href="/httpstatus.es/">&larr; return</a>
+    </div>
+</div>
+
+
+  </body>
+
+</html>

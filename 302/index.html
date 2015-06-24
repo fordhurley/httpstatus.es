@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>HTTP Status Codes &mdash; httpstatus.es</title>
+    <link rel="author" href="/httpstatus.es/humans.txt" />
+    <link rel="stylesheet" href="/httpstatus.es/css/main.css" type="text/css" />
+    <link rel="shortcut icon" href="/httpstatus.es/img/favicon.ico">
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-29439846-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <meta name="description" content="HTTP Status code list / directory with wikipedia and ietf descriptions"/>
+</head>
+
+
+  <body>
+
+    <div id="wrapper">
+    <div class="header">
+        302 / <span class="status_title">Found</span>
+    </div>
+    <div id="desc">
+        
+        <p id="wikipedia">
+            &#8220;This is an example of industrial practice contradicting the standard. HTTP/1.0 specification (RFC 1945) required the client to perform a temporary redirect (the original describing phrase was "Moved Temporarily"), but popular browsers implemented 302 with the functionality of a 303 See Other. Therefore, HTTP/1.1 added status codes 303 and 307 to distinguish between the two behaviours. However, some Web applications and frameworks use the 302 status code as if it were the 303.&#8220; &mdash; <a class="reference" href="http://en.wikipedia.org/wiki/List_of_HTTP_status_codes#302">wikipedia</a>
+        </p>
+        
+        <p id="ietf">
+            &#8220;The requested resource resides temporarily under a different URI. Since the redirection might be altered on occasion, the client SHOULD continue to use the Request-URI for future requests. This response is only cacheable if indicated by a Cache-Control or Expires header field.
+The temporary URI SHOULD be given by the Location field in the response. Unless the request method was HEAD, the entity of the response SHOULD contain a short hypertext note with a hyperlink to the new URI(s).
+If the 302 status code is received in response to a request other than GET or HEAD, the user agent MUST NOT automatically redirect the request unless it can be confirmed by the user, since this might change the conditions under which the request was issued.
+Note: RFC 1945 and RFC 2068 specify that the client is not allowed to change the method on the redirected request. However, most existing user agent implementations treat 302 as if it were a 303 response, performing a GET on the Location field-value regardless of the original request method. The status codes 303 and 307 have been added for servers that wish to make unambiguously clear which kind of reaction is expected of the client.&#8220; &mdash; <a class="reference" href="http://www.ietf.org/rfc/rfc2616.txt">ietf</a>
+        </p>
+        
+    </div>
+    
+    <div id="code_references">
+        <div class="header">
+           302 / <span class="status_title">code reference(s)</span>
+        </div>
+        <div class="info_list">
+            
+            <div class="info_item">
+                <div class="title">
+                    Rails HTTP Status Symbol
+                </div>
+                <div class="value">
+                    :found
+                </div>
+                <div class="clear"></div>
+            </div>
+            
+            <div class="clear"></div>
+        </div>
+    </div>
+    
+
+    <div id="return">
+        <a href="/httpstatus.es/">&larr; return</a>
+    </div>
+</div>
+
+
+  </body>
+
+</html>
